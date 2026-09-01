@@ -54,7 +54,7 @@ async def user_only(client, message, Owner, Sudos):
         return 
 
     if int(user.id) in Devs:
-        await message.reply_text(f"{user.mention} ɪs ᴏᴡɴᴇʀ/ᴅᴇᴠ ᴏғ @lll_TOXICC_PAPA_lll")
+        await message.reply_text(f"{user.mention} ɪs ᴏᴡɴᴇʀ/ᴅᴇᴠ ᴏғ @ii_jpexo_ii")
         return
     if int(user.id) == Owner:
         await message.reply_text(f"{user.mention} ɪs ᴏᴡɴᴇʀ ᴏғ ᴛʜᴇsᴇ ʙᴏᴛs!")
