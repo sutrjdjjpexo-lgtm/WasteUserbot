@@ -12,20 +12,20 @@ from Shashank.helper.PyroHelpers import ReplyCheck
 from Shashank.modules.help import add_command_help
 from Shashank.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://files.catbox.moe/qbtaqa.jpg"
+alive_logo = ALIVE_PIC or "https://kommodo.ai/i/dnAhsK0s3h0zWq89By5C"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 𝐓𝐎𝐗𝐈𝐂 ✘ 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 **\n\n"
+        f"** 𝐖𝐀𝐒𝐓𝐄 ✘ 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](https://t.me/+mr41Uo_5COViNGM1)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇ**: [Click](https://t.me/isha_updates)\n"
-        f"└• **𝐇ᴏᴛᴇʀ**: [Click](https://t.me/UBhosterbot)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](https://t.me/WasteSupport)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇ**: [Click](https://t.me/jp_network)\n"
+        f"└• **𝐇ᴏᴛᴇʀ**: [Click](https://t.me/wasteuserbot)"        
     )
 
 @Client.on_message(
@@ -58,12 +58,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Ⰶ ʜᴇʀᴇ ɪs ғʀᴇᴇ ᴛᴏxɪᴄ ᴜsᴇʀʙᴏᴛ ʜᴏsᴛᴇʀ: \n\n[𝐓𝐎𝐗𝐈𝐂 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://t.me/UBhosterbot)\n\nⰆ ᴄʟᴏɴᴇ ʏᴏᴜʀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ & ᴇɴᴊᴏʏ")
+    await message.edit("Ⰶ ʜᴇʀᴇ ɪs ғʀᴇᴇ ᴛᴏxɪᴄ ᴜsᴇʀʙᴏᴛ ʜᴏsᴛᴇʀ: \n\n[𝐖𝐀𝐒𝐓𝐄 ✘ 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://t.me/wasteuserbot)\n\nⰆ ᴄʟᴏɴᴇ ʏᴏᴜʀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ & ᴇɴᴊᴏʏ")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me | filters.user(SUDO_USER))
 async def creator(bot: Client, message: Message):
-    await message.edit("@lll_TOXICC_PAPA_lll")
+    await message.edit("@ii_jpexo_ii")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
