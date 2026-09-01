@@ -131,6 +131,7 @@ async def about_command(client: Client, message: Message):
 # Callback queries
 @app.on_callback_query()
 async def callback_handler(client: Client, query: CallbackQuery):
+    await query.answer()
     data = query.data
     if data == "home":
         await query.message.edit_media(
