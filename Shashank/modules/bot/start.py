@@ -35,28 +35,28 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("🕸️ ᴛᴏxɪᴄ 🕸️", url="https://t.me/lll_TOXICC_PAPA_lll")],
+        [InlineKeyboardButton("🕸️ ᴡᴀsᴛᴇ", url="https://t.me/II_JPEXO_II")],
         [
             InlineKeyboardButton("❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎶", callback_data="about")
         ],
         [
-            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's", url="https://t.me/Isha_updates"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/+mr41Uo_5COViNGM1")
+            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's", url="https://t.me/JP_NETWORK"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/WASTESUPPORT")
         ],
-        [InlineKeyboardButton("🌿 ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌿", url="https://t.me/lll_TOXICC_PAPA_lll")],
+        [InlineKeyboardButton("🌿 ʙᴏᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌿", url="https://t.me/II_JPEXO_II")],
     ]
 
     START = """
 **┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ⏤͟͟͞͞‌‌‌‌★**
-**┆◍ ʜᴇʏ, ɪ ᴀᴍ : [ɪsʜᴀ ꭙ 𝐔sᴇʀвσᴛ](https://t.me/ubhosterbot)**
+**┆◍ ʜᴇʏ, ɪ ᴀᴍ : [ᴡᴀsᴛᴇ ꭙ 𝐔sᴇʀвσᴛ](https://t.me/Wasteuserbot)**
 **┆● ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ !** 
 **└────────────────────────•**
 **❖ ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ɪᴅ-ᴜsᴇʀ-ʙᴏᴛ**
 **❖ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ғᴏʀ ғᴜɴ.**
 **❖ ɪ ᴄᴀɴ ʙᴏᴏsᴛ ʏᴏᴜʀ ɪᴅ **
 **•─────────────────────────•**
-**❖ ʙʏ : [ᴛᴏxɪᴄ ꭙ ᴏᴡɴᴇʀ](https://t.me/lll_TOXICC_PAPA_lll) 🚩**
+**❖ ʙʏ : [ᴡᴀsᴛᴇ ꭙ ᴏᴡɴᴇʀ](https://t.me/ii_jpexo_ii) 🚩**
 """
 
     HELP = """
@@ -70,7 +70,7 @@ class Data:
 **/remove - ʟᴏɢᴏᴜᴛ ғʀᴏᴍ ʙᴏᴛ**
 """
 
-    GUIDE = """**❖ ʜᴇʏ ᴅᴇᴀʀ, ᴛʜɪs ɪs ᴀ ǫᴜɪᴄᴋ ᴀɴᴅ sɪᴍᴘʟᴇ ɢᴜɪᴅᴇ ᴛᴏ ʜᴏsᴛɪɴɢ [ɪsʜᴀ Uꜱᴇʀʙᴏᴛ](https://t.me/ubhosterbot)**
+    GUIDE = """**❖ ʜᴇʏ ᴅᴇᴀʀ, ᴛʜɪs ɪs ᴀ ǫᴜɪᴄᴋ ᴀɴᴅ sɪᴍᴘʟᴇ ɢᴜɪᴅᴇ ᴛᴏ ʜᴏsᴛɪɴɢ [ɪsʜᴀ Uꜱᴇʀʙᴏᴛ](https://t.me/WasteUserbot)**
 
 **1) Sᴇɴᴅ /add ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ **
 **2) Sᴇɴᴅ ʏᴏᴜʀ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ɪɴ ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ғᴏʀᴍᴀᴛ (ᴇ.ɢ. +917800000000)**  
@@ -88,18 +88,18 @@ class Data:
 
 **sᴜᴘᴘᴏʀᴛᴇᴅ :- ʀᴇᴘʟʏ-ʀᴀɪᴅ, ɪᴅ-ᴄʟᴏɴᴇ, ʀᴀɪᴅ, sᴘᴀᴍ, ᴜsᴇʀ-ᴛᴀɢɢᴇʀ ᴇᴛᴄ.**
 
-**◌ ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)**
-**◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [˹ɪsʜᴀ ꭙ ʙᴏᴛs˼](https://t.me/isha_bots)**
-**◌ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [ᴛᴏxɪᴄ](https://t.me/lll_TOXICC_PAPA_lll)**
+**◌ ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://t.me/II_JPEXO_II)**
+**◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [˹ᴡᴀsᴛᴇ ꭙ ʙᴏᴛs˼](https://t.me/JP_NETWORK)**
+**◌ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [ᴡᴀsᴛᴇ](https://t.me/II_JPEXO_II)**
 """
 
     DONATE = """
 **❖ ʜᴇʏ, ɪ ᴀᴍ ɢʟᴀᴅ ᴛᴏ ᴋɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ɪɴᴛᴇʀᴇsᴛᴇᴅ ɪɴ ᴅᴏɴᴀᴛɪɴɢ ᴜs ᴛʜᴀᴛ ᴍᴇᴀɴ ᴀ ʟᴏᴛ :)**
 
 **ᴡᴇ ᴘʀᴏᴠɪᴅᴇ 24×7 ᴜsᴇʙᴏᴛ ʜᴏsᴛɪɴɢ sᴇʀᴠɪᴄᴇ. sᴏ ᴡᴇ ᴀʟsᴏ ɴᴇᴇᴅ sᴏᴍᴇ ʜᴇʟᴘ ғᴏʀ ɪᴛ, ᴅᴏɴᴀᴛᴇ ɴᴏᴡ ᴠɪᴀ :-**
-**• ᴜᴘɪ ɪᴅ » **`gyaneshpatel@naviaxis`
-**• ǫʀ ᴄᴏᴅᴇ » [ᴛᴀᴘ ᴛᴏ sᴇᴇ ǫʀ ᴄᴏᴅᴇ](https://files.catbox.moe/ao0px4.jpg) **
-**• ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/lll_TOXICC_PAPA_lll) 🚩**
+**• ᴜᴘɪ ɪᴅ » **`JOYZZ@FAM`
+**• ǫʀ ᴄᴏᴅᴇ » [ᴛᴀᴘ ᴛᴏ sᴇᴇ ǫʀ ᴄᴏᴅᴇ](https://t.me/II_JPEXO_II) **
+**• ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/II_JPEXO_II) 🚩**
 
 **ʏᴏᴜʀ sᴍᴀʟʟ ᴀᴍᴏᴜɴᴛ ᴄᴀɴ ʜᴇʟᴘ ᴜs ᴀɴᴅ sᴛʀᴀɴɢᴇʀ ᴛᴏ ɢʀᴏᴡ ᴍᴏʀᴇ**
 """
