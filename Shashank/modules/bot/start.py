@@ -131,7 +131,6 @@ async def about_command(client: Client, message: Message):
 # Callback queries
 @app.on_callback_query()
 async def callback_handler(client: Client, query: CallbackQuery):
-    await query.answer()
     data = query.data
     if data == "home":
         await query.message.edit_media(
@@ -139,23 +138,23 @@ async def callback_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(Data.buttons)
         )
     elif data == "help":
-        await query.message.edit_text(
-            Data.HELP,
+        await query.message.edit_media(
+            media=InputMediaPhoto(ALIVE_PIC, caption=Data.HELP),
             reply_markup=InlineKeyboardMarkup(Data.home_buttons)
         )
     elif data == "about":
-        await query.message.edit_text(
-            Data.ABOUT,
+        await query.message.edit_media(
+            media=InputMediaPhoto(ALIVE_PIC, caption=Data.ABOUT),
             reply_markup=InlineKeyboardMarkup(Data.home_buttons)
         )
     elif data == "donate":
-        await query.message.edit_text(
-            Data.DONATE,
+        await query.message.edit_media(
+            media=InputMediaPhoto(ALIVE_PIC, caption=Data.DONATE),
             reply_markup=InlineKeyboardMarkup(Data.guide_buttons)
         )
     elif data == "guide":
-        await query.message.edit_text(
-            Data.GUIDE,
+        await query.message.edit_media(
+            media=InputMediaPhoto(ALIVE_PIC, caption=Data.GUIDE),
             reply_markup=InlineKeyboardMarkup(Data.back_buttons)
         )
 
