@@ -129,9 +129,10 @@ async def about_command(client: Client, message: Message):
     )
 
 # Callback queries
-@app.on_callback_query()
+@app.on_callback_query(filters.regex(r"^(home|help|about|donate|guide)$"))
 async def callback_handler(client: Client, query: CallbackQuery):
     data = query.data
+    await query.answer()
     if data == "home":
         await query.message.edit_media(
             media=InputMediaPhoto(ALIVE_PIC, caption=Data.START),

@@ -9,7 +9,7 @@ from Shashank.helper.data import Data
 from Shashank.helper.inline import cb_wrapper, paginate_help
 from Shashank import ids as users
 
-@Client.on_callback_query()
+@Client.on_callback_query(filters.regex(r"^(helper|close|close_help|closed|make_basic_button)$"))
 async def _callbacks(_, callback_query: CallbackQuery):
     query = callback_query.data.lower()
     bot_me = await app.get_me()
